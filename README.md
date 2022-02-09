@@ -2,9 +2,9 @@
 ## An example of seeking, fleeing, pursuing, evading, approaching, wandering, and idling
 
 
-## When launching the project, please open the "main" scene to see the project
+### When launching the project, please open the "main" scene to see the project
 
-## Build is available in the releases tab
+### Build is available in the releases tab
 
 ## Controls:
 	WASD to move
