@@ -4,14 +4,14 @@ An example of seeking, fleeing, pursuing, evading, approaching, wandering, and i
 
 # When launching the project, please open the "main" scene to see the project
 
-Controls:
+## Controls:
 	WASD to move
 	Left click to shoot
 
-Colors:
+## Colors:
 	EnemyA : Sphere
-	Red:    Seeking
-	White:  Fleeing
+	Red :    Seeking
+	White :  Fleeing
 
 	EnemyB : Cube
 	Purple: Pursuing
@@ -25,5 +25,5 @@ Colors:
 	Cyan:   Wandering
 	Yellow: Idle
 
-Gun Model: https://free3d.com/3d-model/45-acp-smith-and-wesson-13999.html
-Font by Bou Fonts: https://www.dafont.com/squarefont.font
+### Gun Model: https://free3d.com/3d-model/45-acp-smith-and-wesson-13999.html
+### Font by Bou Fonts: https://www.dafont.com/squarefont.font
