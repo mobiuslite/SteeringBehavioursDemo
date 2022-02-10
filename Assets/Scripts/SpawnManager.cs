@@ -91,8 +91,6 @@ public class SpawnManager : MonoBehaviour
             //everytime an enemy spawns, it gets faster.
             if(spawnRate > 0.03f)
                 spawnRate *= reductionMultiplier;
-
-            Debug.Log(spawnRate);
         }
     }
     public void DeleteEnemy(GameObject enemy)

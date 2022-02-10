@@ -32,7 +32,7 @@ public class Bullet : MonoBehaviour
         if (this.gameObject.layer == LayerMask.NameToLayer("PlayerBullet"))
         {
             bool hitEnemy = false;
-            if (collision.gameObject.layer != LayerMask.NameToLayer("Environment"))
+            if (collision.gameObject.layer != LayerMask.NameToLayer("Environment") && collision.gameObject.layer != LayerMask.NameToLayer("EnemyBullet"))
             {
                 collision.gameObject.GetComponent<Enemy>().Delete();
                 hitEnemy = true;
